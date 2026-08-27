@@ -1,0 +1,9 @@
+Please Do Not Throw Sausage Pizza Away
+
+Physical (Layer 1)
+Data Link (Layer 2)
+Network (Layer 3)
+Transport (Layer 4)
+Session (Layer 5)
+Presentation (Layer 6)
+Application (Layer 7
