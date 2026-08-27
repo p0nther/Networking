@@ -61,7 +61,7 @@ def handle(pkt):
         if pkt.haslayer(Raw):
             payload = pkt[Raw].load
             print(f"[S→C] {payload}")
-            if b"pwn.college" in payload:
+            if b"the_flag" in payload:
                 print(f"\n[FLAG] {payload.decode(errors='ignore')}\n")
 
     sendp(fwd, iface=iface, verbose=False)
